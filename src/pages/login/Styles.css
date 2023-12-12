@@ -1,0 +1,144 @@
+body {
+    font-family: Love Ya Like A Sister;
+    background-color: #bb8ff5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 3px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.imgLogo {
+    max-width: 260px;
+    max-height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.redesSociais {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    text-align: left;
+
+}
+
+#imgInstagram {
+    max-width: 30px;
+    max-height: 30px;
+    vertical-align: middle;
+}
+
+#instagram {
+    display: inline;
+    margin-top: 5px;
+
+}
+
+#imgFacebook {
+    max-width: 30px;
+    max-height: 30px;
+    vertical-align: middle;
+
+
+}
+
+#facebook {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+h2 {
+    display: inline-table;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+#quemSomos {
+    margin-right: 100px;
+    margin-left: 30px;
+
+}
+
+#contato {
+    margin-right: 220px;
+    margin-left: 30px;
+
+}
+
+#entrar {
+    margin-left: 150px;
+    margin-right: 100px;
+    color: #7F08F6;
+    display: inline-block;
+
+
+}
+
+#cadastro {
+    display: inline-block;
+    margin-right: 90px;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-bottom: 0%;
+    background-color: #bb8ff5;
+    border: none;
+    font-weight: bold;
+
+
+}
+
+.login {
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+    color: blue;
+    font-size: 11px;
+    margin-bottom: 60px;
+    margin-left: 130px;
+    display: block;
+}
+
+#btentrar {
+    border-radius: 10px;
+    background-color: #aa7cd8;
+    border: none;
+    font-weight: bold;
+}
+
+#busca {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #e4e0e7;
+    border-color: #7F08F6;
+}

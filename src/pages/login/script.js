@@ -1,8 +1,6 @@
 function exibirMensagem() {
-    var email = document.getElementById("email").value;
-    var senha = document.getElementById("senha").value;
-    var resultadoSection = document.getElementById("resultado");
-    resultadoSection.innerHTML = "<p>Botão clicado!</p>";
+    const email = document.getElementById("email").value;
+    const senha = document.getElementById("senha").value;
 
     // Validar e-mail e senha (adapte conforme necessário)
     var emailValido = validaEmail(email);
@@ -26,3 +24,9 @@ function validaSenha(senha) {
     // Retorne true se a senha for válida, false caso contrário
     return true;
 }
+
+const dadosLogin = {
+    email: email,
+    senha: senha
+};
+

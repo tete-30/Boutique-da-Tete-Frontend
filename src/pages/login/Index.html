@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+
+        <img class="imgLogo" src="../../imagens/BoutiqueDaTeteLogo.png" alt="Logo da Boutique da Tete">
+        <div class="redesSociais">
+            <h3>Nos sigam nas Redes Sociais </h3>
+            <img id="imgInstagram" src="../../imagens/LogoInstagram.png" alt="Logo Instagram">
+            <h3 id="instagram"> @boutiquedatete2022</h3> <br>
+            <img id="imgFacebook" src="../../imagens/LOGO FACEBOOK.png" alt="Logo FACEBOOK">
+
+            <h3 id="facebook">Boutique da Tetê</h3>
+        </div>
+
+        <div>
+            <input type="text" id="busca" name="busca" placeholder="O que você procura?">
+        </div>
+
+            <h2 id="quemSomos"> Quem Somos </h2>
+            <h2 id="contato"> Contato <img id="imgWhats" src="../../imagens/whatsApp.png" alt="Logo whatsApp"> </h2>
+            <h2 id="entrar"> Entrar </h2>
+            <button id="cadastro"> Cadastre-se </button>
+    </header>
+
+    <main>
+        <div class="login">
+            <section>
+                <h2>Entrar</h2>
+            </section>
+
+            <section>
+                <label for="lemail">E-mail:</label>
+                <input type="text" id="email" name="email" placeholder="seuemail@example.com"><br><br>
+                <label for="lsenha">Senha:</label>
+                <input type="password" id="senha" name="senha"><br><br>
+                <a href="reset-password.html">Esqueceu sua senha?</a>
+            </section>
+
+
+            <section id="resultado">
+                <!-- Aqui será exibido o resultado do JavaScript -->
+            </section>
+
+            <section>
+                <button id="btentrar" type="button" onclick="exibirMensagem()">Entrar</button>
+            </section>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
