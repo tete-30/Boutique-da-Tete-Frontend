@@ -33,8 +33,8 @@
 
 
     <main>
-        <title>CADASTRO</title>
-        <p>DADOS COM * SÃO OBRIGATÓRIOS</p>
+        <h1>CADASTRO</h1>
+        <p style="color: red;">DADOS COM * SÃO OBRIGATÓRIOS</p>
         <section class="conteiner">
             <label for="lnome">Nome:</label>
             <input type="text" id="nome" name="nome"><br><br>
@@ -65,12 +65,12 @@
         <title>SENHA</title>
         <section>
             <label for="lsenha">Senha:</label>
-            <input type="text" id="senha" name="senha"><br><br>
-            <label for="lconfirmeSenha">Confirme Senha:</label>
-            <input type="text" id="confirmeSenha" name="confirmeSenha"><br><br>
+            <input type="password" id="senha" name="senha"><br><br>
+            <label for="lconfirmeSenha" >Confirme Senha:</label>
+            <input type="password" id="confirmeSenha" name="confirmeSenha"><br><br>
         </section>
 
-        <p id="requisitos obrigatórios"> Requisitos Obrigatórios: <br>
+        <p style="color: red;" id="requisitos obrigatórios"> Requisitos Obrigatórios: <br>
 
             Mínimo 6 caracteres. <br>
             Mínimo 3 números. <br>
@@ -78,8 +78,10 @@
             Mínimo 1 letra maiúscula.
         </p>
 
+        <button id="bsalvar" type="button" onclick="cadastrar()">Salvar</button>
+
         <section id="resultado">
-            <!-- Aqui será exibido o resultado do JavaScript -->
+            
         </section>
     </main>
 </body>

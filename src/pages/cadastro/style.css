@@ -19,6 +19,8 @@ main {
     
 }
 
+
+
 section {
     margin-bottom: 20px;
 }
@@ -123,8 +125,6 @@ h2 {
     background-color: #bb8ff5;
     border: none;
     font-weight: bold;
-
-
 }
 
 .login {
@@ -156,4 +156,15 @@ a {
     border-radius: 10px;
     background-color: #e4e0e7;
     border-color: #7F08F6;
+}
+
+#bsalvar {
+    display: inline-block;
+    margin-right: 90px;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-bottom: 0%;
+    background-color: #aa7cd8;
+    border: none;
+    font-weight: bold;
 }
