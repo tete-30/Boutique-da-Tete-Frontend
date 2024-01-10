@@ -19,14 +19,13 @@ main {
     
 }
 
-
-
 section {
     margin-bottom: 20px;
 }
 
 input#nome {
     width:90%;
+    
 }
 input#cpf {
     width:50%;
