@@ -1,22 +1,25 @@
 body {
-    font-family: Love Ya Like A Sister;
-    background-color: #bb8ff5;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: white;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    background-color: #FF0080;
+    color: white;
     text-align: center;
-    padding: 3px;
+    padding: 10px;
 }
 
 main {
-    max-width: 800px;
+    max-width: 60%;
     margin: 20px auto;
-    padding: 20px;
-    
+    padding: 55px;
+    background-color: #FF0080;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;    
 }
 
 section {
@@ -29,8 +32,14 @@ button {
     cursor: pointer;
 }
 
+label{
+    font-family: 'Arial', sans-serif;
+    color: white;
+    font-size: 19px;
+}
+
 .imgLogo {
-    max-width: 260px;
+    max-width: 300px;
     max-height: 260px;
     margin-left: auto;
     margin-right: auto;
@@ -39,11 +48,11 @@ button {
 
 .redesSociais {
     position: absolute;
-    top: 0;
+    bottom: 80%;
     left: 0;
     padding: 20px;
     text-align: left;
-
+    font-size: 12px;
 }
 
 #imgInstagram {

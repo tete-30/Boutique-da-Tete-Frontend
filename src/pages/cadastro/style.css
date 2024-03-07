@@ -1,23 +1,23 @@
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #2c2733;
-    color: #fff;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: white;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #554e63;
-    color: #fff;
+    background-color: #FF0080;
+    color: white;
     text-align: center;
     padding: 10px;
 }
 
 main {
-    max-width: 800px;
+    max-width: 65%;
     margin: 20px auto;
     padding: 20px;
-    background-color: #3c3744;
+    background-color: #FF0080;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -33,7 +33,7 @@ input[type="text"], input[type="password"] {
     box-sizing: border-box;
     border: 1px solid #7F08F6; 
     border-radius: 5px;
-    background-color: #554e63; 
+    background-color: #fff; 
     color: #fff;    
     
 }
@@ -58,7 +58,7 @@ button {
 }
 
 .imgLogo {
-    max-width: 260px;
+    max-width: 300px;
     max-height: 260px;
     margin-left: auto;
     margin-right: auto;
@@ -67,11 +67,11 @@ button {
 
 .redesSociais {
     position: absolute;
-    top: 0;
+    bottom: 80%;
     left: 0;
     padding: 20px;
     text-align: left;
-
+    font-size: 12px;
 }
 
 #imgInstagram {
@@ -90,8 +90,17 @@ button {
     max-width: 30px;
     max-height: 30px;
     vertical-align: middle;
+}
 
-
+#lupa{
+    max-width: 20px;
+    max-height: 20px;
+    vertical-align: middle;
+    padding:5px;
+    position: fixed;
+    left: 96%;
+    bottom: 93.5%;
+    width: 20%;
 }
 
 #facebook {
@@ -109,7 +118,6 @@ h2 {
 #quemSomos {
     margin-right: 100px;
     margin-left: 30px;
-
 }
 
 #contato {
@@ -121,10 +129,8 @@ h2 {
 #entrar {
     margin-left: 150px;
     margin-right: 100px;
-    color: #7F08F6;
+    color: white;
     display: inline-block;
-
-
 }
 
 #cadastro {
@@ -133,7 +139,7 @@ h2 {
     margin-left: 50px;
     border-radius: 10px;
     margin-bottom: 0%;
-    background-color: #bb8ff5;
+    background-color: #FFA6C9;
     border: none;
     font-weight: bold;
 }
@@ -153,20 +159,25 @@ a {
 
 #btentrar {
     border-radius: 10px;
-    background-color: #aa7cd8;
+    background-color: #FFA6C9;
+    color: white;
     border: none;
     font-weight: bold;
 }
 
 #busca {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;  
+    padding:5px;
     position: fixed;
-    top: 10px;
-    right: 10px;
-    padding: 5px;
-    font-weight: bold;
-    border-radius: 10px;
-    background-color: #e4e0e7;
-    border-color: #7F08F6;
+    left: 79%;
+    bottom: 93%;
+    width: 20%;
+    background-color: #FFA6C9;
+    border-color: #fff;
+    border-width: 1px;
+
 }
 
 #bsalvar {
@@ -175,7 +186,7 @@ a {
     margin-left: 50px;
     border-radius: 10px;
     margin-bottom: 0%;
-    background-color: #aa7cd8;
+    background-color: #ff6984;
     border: none;
     font-weight: bold;
 }
